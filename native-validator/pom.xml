@@ -3,7 +3,7 @@
 
     <groupId>org.openrtb</groupId>
     <artifactId>native-validator</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.0-SMAATO</version>
     <packaging>jar</packaging>
 	
     <name>native-validator</name>
