@@ -21,11 +21,6 @@
 			<url>https://nexus.smaato.net/content/repositories/snapshots</url>
 		</snapshotRepository>
 
-		<site>
-			<id>site</id>
-			<name>smaato Project Documentation</name>
-			<url>file:///var/www/soma</url>
-		</site>
 	</distributionManagement>
 
   <modules>

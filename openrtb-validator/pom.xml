@@ -31,6 +31,22 @@
        <vertica.version>7.1.2-0</vertica.version>
        <opencsv.version>2.3</opencsv.version>
    </properties>
+
+    <distributionManagement>
+        <repository>
+            <id>releases</id>
+            <name>Smaato Maven Repository Releases</name>
+            <url>https://nexus.smaato.net/content/repositories/releases</url>
+        </repository>
+
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>Smaato Maven Repository Snapshot</name>
+            <url>https://nexus.smaato.net/content/repositories/snapshots</url>
+        </snapshotRepository>
+
+    </distributionManagement>
+
     <licenses>
         <license>
             <name>New BSD License</name>
