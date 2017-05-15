@@ -31,7 +31,6 @@
        <vertica.version>7.1.2-0</vertica.version>
        <opencsv.version>2.3</opencsv.version>
    </properties>
-
     <licenses>
         <license>
             <name>New BSD License</name>
@@ -112,31 +111,5 @@
             </plugin>
         </plugins>
     </build>
-
-	<distributionManagement>
-		<repository>
-			<id>releases</id>
-			<name>Smaato Maven Repository Releases</name>
-			<url>https://nexus.smaato.net/content/repositories/releases</url>
-		</repository>
-
-		<snapshotRepository>
-			<id>snapshots</id>
-			<name>Smaato Maven Repository Snapshot</name>
-			<url>https://nexus.smaato.net/content/repositories/snapshots</url>
-		</snapshotRepository>
-
-		<site>
-			<id>site</id>
-			<name>smaato Project Documentation</name>
-			<url>file:///var/www/soma</url>
-		</site>
-	</distributionManagement>
-
-    <scm>
-        <url>https://github.com/openrtb/openrtb2x/tree/2.0/openrtb-validator</url>
-        <connection>scm:git:https://github.com/openrtb/openrtb2x.git</connection>
-        <developerConnection>scm:git:git@github.com:openrtb/openrtb2x.git</developerConnection>
-    </scm>
 
 </project>
